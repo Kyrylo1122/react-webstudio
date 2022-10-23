@@ -1,0 +1,17 @@
+:root {
+  --white-background-color: #ffffff;
+  --dark-background-color: #2f303a;
+  --main-background-color: #e5e5e5;
+  --fourth-background-color: #f5f4fa;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --btn-color: #f5f4fa;
+  --portfolio-border-color: #757575;
+  --card-description-background-color: #ffffff;
+  --icon-color: #afb1b8;
+  --animation-duration: 250ms;
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
