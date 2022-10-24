@@ -40,6 +40,7 @@ export default function PortfolioCard({ item }) {
           <img
             src={`/images/img-portfolio/img-${item.id}.jpg`}
             alt={item.title}
+            loading="lazy"
           />
         </picture>
         <p className="card-overlay__text">
