@@ -1,5 +1,7 @@
 .portfolio-btn {
-  margin-bottom: 40px;
+  &__container {
+    margin-bottom: 40px;
+  }
 
   &__list {
     margin: -8px -4px;

@@ -1,12 +1,12 @@
-import Contacts from "./Contacts/Contacts";
-import Navigation from "./Navigation/Navigation";
+import DesktopHeader from "./DesktopHeader/DesktopHeader";
+import MobileHeader from "./MobileHeader/MobileHeader";
 import "./_Header.scss";
 export default function Header() {
   return (
     <header className="header">
-      <div className="container header__container">
-        <Navigation />
-        <Contacts />
+      <div className="container">
+        <MobileHeader />
+        <DesktopHeader />
       </div>
     </header>
   );

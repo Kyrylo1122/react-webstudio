@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
-import Portfolio from "./Components/Pages/Portfolio";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 import "./files/HW8-2/sass/main.scss";
 
