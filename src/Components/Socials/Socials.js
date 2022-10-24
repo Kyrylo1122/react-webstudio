@@ -11,7 +11,7 @@ export default function Socials() {
     <ul className="social">
       <li className="social__item">
         <a href="https://www.instagram.com/" className="social__link">
-          <FaInstagram size="1.5rem" className="social__icon" />
+          <FaInstagram size="1.5rem" className="social__icon" color="inherit" />
         </a>
       </li>
       <li className="social__item">

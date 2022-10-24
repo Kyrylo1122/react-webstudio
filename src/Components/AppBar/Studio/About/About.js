@@ -1,3 +1,5 @@
+import { Antenna, Astronaut, Clock, Diagram } from "./AboutIcons";
+import "./_About.scss";
 export default function About() {
   return (
     <section className="section about">
@@ -7,9 +9,11 @@ export default function About() {
         <ul className="about__list">
           <li className="about__item">
             <div className="about-card">
-              <svg className="about-card__icon" width="65px" height="70px">
-                <use href="./icons.svg#icon-antenna"></use>
-              </svg>
+              <Astronaut
+                className="about-card__icon"
+                width="65px"
+                height="70px"
+              />
             </div>
             <h3 className="about-card__title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p className="about-card__text">
@@ -19,9 +23,7 @@ export default function About() {
           </li>
           <li className="about__item">
             <div className="about-card">
-              <svg className="about-card__icon" width="65px" height="70px">
-                <use href="./icons.svg#icon-clock"></use>
-              </svg>
+              <Clock className="about-card__icon" width="65px" height="70px" />
             </div>
             <h3 className="about-card__title">ПУНКТУАЛЬНОСТЬ</h3>
             <p className="about-card__text">
@@ -31,9 +33,11 @@ export default function About() {
           </li>
           <li className="about__item">
             <div className="about-card">
-              <svg className="about-card__icon" width="65px" height="70px">
-                <use href="./icons.svg#icon-diagram"></use>
-              </svg>
+              <Diagram
+                className="about-card__icon"
+                width="65px"
+                height="70px"
+              />
             </div>
             <h3 className="about-card__title">ПЛАНИРОВАНИЕ</h3>
             <p className="about-card__text">
@@ -43,9 +47,7 @@ export default function About() {
           </li>
           <li className="about__item">
             <div className="about-card">
-              <svg className="about-card__icon" width="65px" height="70px">
-                <use href="./icons.svg#icon-astronaut"></use>
-              </svg>
+              <Antenna />
             </div>
             <h3 className="about-card__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p className="about-card__text">

@@ -7,7 +7,7 @@ export default function OurWorkList({ array }) {
           <div className="work__overlay">
             <picture>
               <source
-                srcset={`/images/box${id}-min.jpg 1x, ./img/box${id}-2x-min.jpg 2x`}
+                srcSet={`/images/box${id}-min.jpg 1x, ./img/box${id}-2x-min.jpg 2x`}
                 media="(min-width:1200px)"
               />
               <img

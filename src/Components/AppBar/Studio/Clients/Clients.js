@@ -1,3 +1,13 @@
+import {
+  Client0,
+  Client1,
+  Client2,
+  Client3,
+  Client4,
+  Client5,
+} from "./ClientsIcons";
+import "./_Clients.scss";
+
 export default function Clients() {
   return (
     <section className="section">
@@ -6,44 +16,32 @@ export default function Clients() {
         <ul className="clients">
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo"></use>
-              </svg>
+              <Client0 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo1"></use>
-              </svg>
+              <Client1 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo2"></use>
-              </svg>
+              <Client2 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo3"></use>
-              </svg>
+              <Client3 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo4"></use>
-              </svg>
+              <Client4 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <svg className="clients__icon" width="106px" height="60px">
-                <use href="./icons.svg#icon-logo5"></use>
-              </svg>
+              <Client5 className="clients__icon" width="106px" height="60px" />
             </a>
           </li>
         </ul>
