@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-webstudio/static/css/main.3499f648.css",
+    "main.js": "/react-webstudio/static/js/main.9931fdfd.js",
+    "static/media/background.desk2x.jpg": "/react-webstudio/static/media/background.desk2x.ebe07bdb38d211143a05.jpg",
+    "static/media/background.tabl2x-min.jpg": "/react-webstudio/static/media/background.tabl2x-min.26bc741ad075340aab83.jpg",
+    "static/media/desk.jpg": "/react-webstudio/static/media/desk.736cc792ebde1ee5bd47.jpg",
+    "static/media/background.mob2x.jpg": "/react-webstudio/static/media/background.mob2x.7b1867c0892f019ed2ad.jpg",
+    "static/media/background.tabl.jpg": "/react-webstudio/static/media/background.tabl.35b96476659994949273.jpg",
+    "static/media/background.mob.jpg": "/react-webstudio/static/media/background.mob.0bcce05ba13a6b04cb4f.jpg",
+    "index.html": "/react-webstudio/index.html",
+    "static/media/icon-check.svg": "/react-webstudio/static/media/icon-check.97e07e093f8e12dc18db.svg",
+    "main.3499f648.css.map": "/react-webstudio/static/css/main.3499f648.css.map",
+    "main.9931fdfd.js.map": "/react-webstudio/static/js/main.9931fdfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3499f648.css",
+    "static/js/main.9931fdfd.js"
+  ]
+}
