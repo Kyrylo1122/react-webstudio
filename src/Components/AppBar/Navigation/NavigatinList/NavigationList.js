@@ -14,12 +14,6 @@ export default function NavigationList() {
           Портфолио
         </NavLink>
       </li>
-
-      <li className="navigation__item">
-        <NavLink to="./cont" className="navigation__link">
-          Контакты
-        </NavLink>
-      </li>
     </ul>
   );
 }

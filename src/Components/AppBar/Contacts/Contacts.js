@@ -8,7 +8,7 @@ export default function Contacts() {
         <a href="mailto:info@devstudio.com" className="contacts__link ">
           <div className="contacts-icon__container">
             <CiMail size="1.5rem" color="inherit" />
-            <span> info@devstudio.com</span>
+            <span>info@devstudio.com</span>
           </div>
         </a>
       </li>

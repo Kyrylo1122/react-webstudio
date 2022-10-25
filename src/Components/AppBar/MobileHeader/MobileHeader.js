@@ -19,9 +19,3 @@ export default function MobileHeader() {
     </div>
   );
 }
-
-//  <li className="mob-nav__item">
-//    <a href="" className="mob-nav__link ">
-//      Контакты
-//    </a>
-//  </li>;
