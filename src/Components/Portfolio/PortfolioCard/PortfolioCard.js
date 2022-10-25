@@ -5,22 +5,22 @@ export default function PortfolioCard({ item }) {
       <div className="card-overlay">
         <picture>
           <source
-            srcSet={`
-                        /images/img-portfolio/desk/imgdesk.portfolio${
-                          item.id - 1
-                        }-min.jpg    1x,
-                        /images/img-portfolio/desk/imgdesk.portfolio${
+            srcSet={`../../../../public/images/img-portfolio/desk/imgdesk.portfolio${
+              item.id - 1
+            }-min.jpg 1x,
+                        ../../../../public/images/img-portfolio/desk/imgdesk.portfolio${
                           item.id - 1
                         }@2x-min.jpg 2x
                       `}
             media="(min-width:1200px)"
           />
+
           <source
             srcSet={`
-                        /images/img-portfolio/tabl/imgtabl.portfolio${
+                        ../../../../public/images/img-portfolio/tabl/imgtabl.portfolio${
                           item.id - 1
                         }-min.jpg   1x,
-                        /images/img-portfolio/tabl/imgtabl.portfolio${
+                        ../../../../public/images/img-portfolio/tabl/imgtabl.portfolio${
                           item.id - 1
                         }@2x-min.jpg 2x
                       `}
@@ -28,17 +28,17 @@ export default function PortfolioCard({ item }) {
           />
           <source
             srcSet={`
-                        /images/img-portfolio/mob/imgmob.portfolio.item${
+                        ../../../../public/images/img-portfolio/mob/imgmob.portfolio.item${
                           item.id - 1
                         }-min.jpg    1x,
-                        /images/img-portfolio/mob/imgmob.portfolio.item${
+                        ../../../../public/images/img-portfolio/mob/imgmob.portfolio.item${
                           item.id - 1
                         }@2x-min.jpg 2x
                       `}
             media="(min-width:320px)"
           />
           <img
-            src={`/images/img-portfolio/img-${item.id}.jpg`}
+            src={`../../../../public/images/img-portfolio/img-${item.id}.jpg`}
             alt={item.title}
             loading="lazy"
           />
