@@ -21,6 +21,7 @@ export default function FooterSubscribe() {
               name="email"
               className="footer-subscribe__input"
               placeholder="E-mail"
+              required
             />
             <button type="submit" className="btn footer-subscribe__btn">
               <span>Подписаться</span>
