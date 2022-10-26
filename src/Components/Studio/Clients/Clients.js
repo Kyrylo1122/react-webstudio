@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Client0,
   Client1,
@@ -15,34 +16,34 @@ export default function Clients() {
       <div className="container">
         <ul className="clients">
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client0 className="clients__icon" />
-            </a>
+            </Link>
           </li>
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client1 className="clients__icon" />
-            </a>
+            </Link>
           </li>
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client2 className="clients__icon" />
-            </a>
+            </Link>
           </li>
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client3 className="clients__icon" />
-            </a>
+            </Link>
           </li>
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client4 className="clients__icon" />
-            </a>
+            </Link>
           </li>
           <li className="clients__item">
-            <a href="" className="clients__link">
+            <Link to="/" className="clients__link">
               <Client5 className="clients__icon" />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
