@@ -17,7 +17,7 @@ export default function MobileMenu({ closeMenu }) {
         >
           <ImCross />
         </button>
-        <NavigationList />
+        <NavigationList closeMenu={closeMenu} />
       </div>
       <div className="mob-menu--bottom">
         <SocialsFullName />

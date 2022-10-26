@@ -14,7 +14,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../../public/images/background/background.mob/background.mob.jpg);
+      url(../../../images/background/background.mob/background.mob.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -23,7 +23,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../../../public/images/background/background.mob/background.mob2x.jpg);
+        url(../../../images/background/background.mob/background.mob2x.jpg);
     }
   }
   @media screen and (min-width: 768px) {
@@ -32,7 +32,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../../public/images/background/background.tablet/background.tabl.jpg);
+      url(../../../images/background/background.tablet/background.tabl.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -41,7 +41,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../../../public/images/background/background.tablet/background.tabl2x-min.jpg);
+        url(../../../images/background/background.tablet/background.tabl2x-min.jpg);
     }
   }
   @media screen and (min-width: 1200px) {
@@ -52,7 +52,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../../public/images/background/background-desk/desk.jpg);
+      url(../../../images/background/background-desk/desk.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -60,7 +60,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../../../public/images//background/background-desk/background.desk2x.jpg);
+        url(../../../images//background/background-desk/background.desk2x.jpg);
     }
   }
 

@@ -1,11 +1,6 @@
 import TeamCardSet from "./TeamCardSet/TeamCardSet";
 import "./_Team.scss";
-const teamContentArray = [
-  { id: 1, name: "Игорь Демьяненко", text: " Product Designer" },
-  { id: 2, name: "Ольга Репина", text: " Frontend Developer" },
-  { id: 3, name: "Николай Тарасов", text: "Marketing" },
-  { id: 4, name: "Михаил Ермаков", text: "UI Designerr" },
-];
+import { teamContentArray } from "./TeamContentArray";
 export default function Team() {
   return (
     <section className="section team">

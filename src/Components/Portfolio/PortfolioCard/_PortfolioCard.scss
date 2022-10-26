@@ -30,19 +30,21 @@
   position: relative;
   overflow: hidden;
   &__text {
-    position: absolute;
-
     padding: 63px 24px;
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
 
-    background-color: var(--accent-color);
     color: var(--white-text-color);
-    transform: translateY(0%);
-    transition: transform var(--animation-duration) var(--cubic-bezier);
+    &--container {
+      height: 100%;
+      position: absolute;
+      background-color: var(--accent-color);
+      transform: translateY(0%);
+      transition: transform var(--animation-duration) var(--cubic-bezier);
+    }
   }
-  .card-set__item:hover &__text {
+  .card-set__item:hover &__text--container {
     transform: translateY(-100%);
   }
 }
