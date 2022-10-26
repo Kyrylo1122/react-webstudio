@@ -20,6 +20,8 @@
     }
   }
   &__link {
+    padding: 30px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +32,9 @@
     border-radius: 4px;
     transition: color var(--animation-duration) var(--cubic-bezier),
       border-color var(--animation-duration) var(--cubic-bezier);
+    @media screen and (min-width: 1200px) {
+      padding: 0px;
+    }
   }
   &__link:focus,
   &__link:hover {

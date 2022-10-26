@@ -16,32 +16,32 @@ export default function Clients() {
         <ul className="clients">
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client0 className="clients__icon" width="106px" height="60px" />
+              <Client0 className="clients__icon" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client1 className="clients__icon" width="106px" height="60px" />
+              <Client1 className="clients__icon" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client2 className="clients__icon" width="106px" height="60px" />
+              <Client2 className="clients__icon" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client3 className="clients__icon" width="106px" height="60px" />
+              <Client3 className="clients__icon" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client4 className="clients__icon" width="106px" height="60px" />
+              <Client4 className="clients__icon" />
             </a>
           </li>
           <li className="clients__item">
             <a href="" className="clients__link">
-              <Client5 className="clients__icon" width="106px" height="60px" />
+              <Client5 className="clients__icon" />
             </a>
           </li>
         </ul>
