@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Modal from "../../Modal/Modal";
 import "./_Hero.scss";
 export default function Hero() {
@@ -13,7 +13,11 @@ export default function Hero() {
           Заказать услугу
         </button>
       </div>
-      {modal && <Modal closeModal={closeModal} />}
+      {modal && (
+        <Suspense fallback={null}>
+          <Modal closeModal={closeModal} />
+        </Suspense>
+      )}
     </section>
   );
 }
