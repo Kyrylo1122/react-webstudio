@@ -16,7 +16,7 @@ export default function NavigationList({ closeMenu }) {
 
       <li className="navigation__item">
         <NavLink
-          to="./portfolio"
+          to="portfolio"
           className="navigation__link"
           onClick={() => closeMenu()}
         >
