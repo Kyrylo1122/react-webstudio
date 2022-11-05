@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-webstudio/static/css/main.c23c225a.css",
-    "main.js": "/react-webstudio/static/js/main.2a7c53aa.js",
+    "main.js": "/react-webstudio/static/js/main.fd795a0d.js",
     "static/css/471.f7bdbccf.chunk.css": "/react-webstudio/static/css/471.f7bdbccf.chunk.css",
     "static/js/471.999a5eaa.chunk.js": "/react-webstudio/static/js/471.999a5eaa.chunk.js",
     "static/css/341.20587d7b.chunk.css": "/react-webstudio/static/css/341.20587d7b.chunk.css",
@@ -85,7 +85,7 @@
     "index.html": "/react-webstudio/index.html",
     "static/media/icon-check.svg": "/react-webstudio/static/media/icon-check.97e07e093f8e12dc18db.svg",
     "main.c23c225a.css.map": "/react-webstudio/static/css/main.c23c225a.css.map",
-    "main.2a7c53aa.js.map": "/react-webstudio/static/js/main.2a7c53aa.js.map",
+    "main.fd795a0d.js.map": "/react-webstudio/static/js/main.fd795a0d.js.map",
     "471.f7bdbccf.chunk.css.map": "/react-webstudio/static/css/471.f7bdbccf.chunk.css.map",
     "471.999a5eaa.chunk.js.map": "/react-webstudio/static/js/471.999a5eaa.chunk.js.map",
     "341.20587d7b.chunk.css.map": "/react-webstudio/static/css/341.20587d7b.chunk.css.map",
@@ -94,6 +94,6 @@
   },
   "entrypoints": [
     "static/css/main.c23c225a.css",
-    "static/js/main.2a7c53aa.js"
+    "static/js/main.fd795a0d.js"
   ]
 }
