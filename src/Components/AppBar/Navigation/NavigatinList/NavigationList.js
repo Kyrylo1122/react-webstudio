@@ -5,9 +5,10 @@ export default function NavigationList({ closeMenu }) {
     <ul className="navigation__list">
       <li className="navigation__item">
         <NavLink
-          to="./studio"
+          to="/"
           className="navigation__link"
           onClick={() => closeMenu()}
+          end
         >
           Студия
         </NavLink>
