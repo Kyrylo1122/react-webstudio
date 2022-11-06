@@ -5,9 +5,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 
 import "./sass/main.scss";
 import { ToastContainer } from "react-toastify";
-import { lazy } from "react";
-
-const Studio = lazy(() => import("./Components/Studio/Studio"));
+import Studio from "./Components/Studio/Studio";
 
 function App() {
   return (
