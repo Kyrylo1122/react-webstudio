@@ -1,12 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
-import Portfolio from "./Components/Portfolio/Portfolio";
 
 import "./sass/main.scss";
 import { ToastContainer } from "react-toastify";
 import Studio from "./Components/Studio/Studio";
-
+import Portfolio from "./Components/Portfolio/Portfolio";
 function App() {
   return (
     <div className="App">
