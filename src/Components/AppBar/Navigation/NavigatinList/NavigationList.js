@@ -12,7 +12,6 @@ export default function NavigationList({ closeMenu }) {
         <li key={id} className="navigation__item">
           <NavLink
             to={text === "studio" ? "/" : `${text}`}
-            end={text === "studio" ? true : false}
             className="navigation__link"
             onClick={() => closeMenu()}
           >
