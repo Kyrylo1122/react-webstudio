@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 import "./sass/main.scss";
 import { ToastContainer } from "react-toastify";
 import { lazy } from "react";
 
 const Studio = lazy(() => import("./Components/Studio/Studio"));
-const Portfolio = lazy(() => import("./Components/Portfolio/Portfolio"));
 
 function App() {
   return (
