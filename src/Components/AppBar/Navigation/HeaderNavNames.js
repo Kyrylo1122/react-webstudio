@@ -1,4 +1,4 @@
 export const HeaderNavNames = {
-  STUDIO: "Studio",
-  PORTFOLIO: "Sortfolio",
+  STUDIO: "studio",
+  PORTFOLIO: "portfolio",
 };
