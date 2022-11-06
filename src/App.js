@@ -6,6 +6,8 @@ import "./sass/main.scss";
 import { ToastContainer } from "react-toastify";
 import Studio from "./Components/Studio/Studio";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import { HeaderNavNames } from "./Components/AppBar/Navigation/HeaderNavNames";
+
 function App() {
   return (
     <div className="App">
@@ -14,8 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Studio />} />
-
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path={`${HeaderNavNames.PORTFOLIO}`} element={<Portfolio />} />
         </Route>
       </Routes>
     </div>

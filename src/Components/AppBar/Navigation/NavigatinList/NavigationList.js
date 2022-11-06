@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-
+import { HeaderNavNames } from "../HeaderNavNames";
 const navContent = [
-  { id: 1, text: "studio" },
-  { id: 2, text: "portfolio" },
+  { id: 1, text: HeaderNavNames.STUDIO },
+  { id: 2, text: HeaderNavNames.PORTFOLIO },
 ];
 
 export default function NavigationList({ closeMenu }) {
