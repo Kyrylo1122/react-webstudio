@@ -12,7 +12,9 @@ export default function NavigationList({ closeMenu }) {
         <li key={id} className="navigation__item">
           <NavLink
             to={
-              text === HeaderNavNames.STUDIO ? "/" : `${HeaderNavNames.STUDIO}`
+              text === HeaderNavNames.STUDIO
+                ? "/"
+                : `${HeaderNavNames.PORTFOLIO}`
             }
             end
             className="navigation__link"

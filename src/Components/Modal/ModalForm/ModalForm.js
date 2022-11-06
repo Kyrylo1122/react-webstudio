@@ -88,7 +88,7 @@ export default function ModalForm({ closeModal }) {
           <label htmlFor="modal-check" className="modal-checkbox__text">
             Соглашаюсь с рассылкой и принимаю
             <span className="">
-              <a href="" className="policy-accent">
+              <a href="/" className="policy-accent">
                 Условия договора
               </a>
             </span>
