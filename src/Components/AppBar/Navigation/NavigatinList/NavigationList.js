@@ -11,7 +11,9 @@ export default function NavigationList({ closeMenu }) {
       {navContent.map(({ id, text }) => (
         <li key={id} className="navigation__item">
           <NavLink
-            to={text === "studio" ? "/" : `${text}`}
+            to={
+              text === HeaderNavNames.STUDIO ? "/" : `${HeaderNavNames.STUDIO}`
+            }
             end
             className="navigation__link"
             onClick={() => closeMenu()}
