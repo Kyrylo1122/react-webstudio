@@ -10,14 +10,20 @@ export default function Modal({ closeModal }) {
     }
     closeModal();
   };
+
   useEffect(() => {
     const escape = (e) => {
       if (e.code === "Escape") {
         closeModal();
       }
     };
+    document.body.style.overflow = "hidden";
+
     window.addEventListener("keydown", escape);
-    return () => window.removeEventListener("keydown", escape);
+    return () => {
+      window.removeEventListener("keydown", escape);
+      document.body.style.overflow = "unset";
+    };
   }, [closeModal]);
   return (
     <div className="backdrop" onClick={onBackdropClick}>
