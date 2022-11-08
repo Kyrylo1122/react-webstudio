@@ -2,11 +2,15 @@
   padding: 15px 0;
   &__container {
     display: none;
-
     justify-content: space-between;
     align-items: center;
     @media screen and (min-width: 768px) {
       display: flex;
+    }
+  }
+  &__logo-container {
+    @media screen and (min-width: 1200px) {
+      margin-right: 50px;
     }
   }
 }
